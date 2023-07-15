@@ -1,29 +1,124 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= sub %></p>
-    <table>
 
-      <% names.forEach((name) => { %>
-      <tr>
-          <td>
-              <%= name.id %>
-          </td>
-          <td>
-              <%= name.name %>
-          </td>
-          <td>
-              <%= name.email %>
-          </td>
-      </tr>
-    <% }) %>
-    </table>
-  </body>
+<head>
+  <title>
+    <%= title %>
+  </title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+  <h1>
+    <%= title %>
+  </h1>
+  <p><%= sub %>
+  </p>
+  <table>
+    <tr>
+      <th>ID#</th>
+      <th>Term</th>
+      <th>Description</th>
+      <th>Reference</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Infrastructure as Code (IaC)</td>
+      <td>The practice of defining and managing infrastructure resources 
+        using code or declarative configuration files. It enables provisioning, 
+        configuring, and managing infrastructure through automation, improving 
+        consistency and scalability. 
+      </td>
+      <td> AWS: What is Infrastructure as Code (IaC)?</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Service Level Agreement(SLA)</td>
+      <td>A contract or agreement between a service provider and
+        its users. defining the expected level of service quality, avialability,and performance.
+        SLAs set measurable targets and provide guidelines for services management and customer
+        satisfaction.
+      </td>
+      <td>Techopedia: Service Level Agreement (SLA))</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>DevOps Culture</td>
+      <td>A cultural shift that fosters collaborations,communication,and shared responsibility
+        between development and operations teams.It promotes breaking down silos,automating 
+        processes,and embracing continuous learning and improvement. DevOps culture emphasizes
+        the values of transparency, trust,and collaborations. 
+      </td>
+      <td>DevOps.com:DevOps Culture</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Version Control System(VCS)</td>
+      <td>A system that enables tracking and management of changes to source code and other files.
+        VCS allows multiple development to work on a project concurrently,provides version history,
+        facilitates collaboration,and helps with code management and branching strategies.
+      </td>
+      <td>Atlassian:Version Control</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Configuration Management</td>
+      <td>The process of managing and controlling the configuration of software systems and infrastructure.
+        It involves tracking,maintaning and deploying configurations consistently across environments.
+        Configuration management tools automate the provisioning,configuration and management of software
+        and infrastructure resources.
+      </td>
+      <td>Red Hat: What is Configuration Management</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Monitoring and Observability</td>
+      <td>The practice of continuously monitoring and collecting data about the performance,
+        avialability,and behavior of systems and applications.Monitoring provides real-time insights
+        into system health,while observability focuses on understanding system behavior and performance
+        through log analysis,distributed tracing, and metrics.
+      </td>
+      <td>Datadog: Monitoring vs. Observability</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Scalability</td>
+      <td>The ability of a system or applicaiton to handle increasing workload or user demand by
+        adapting its recources.Scalability can be achieved through horizontal scaling(adding more
+        instances) or vertical scaling(increasing the resources of existing instances).
+      </td>
+      <td>Microsoft Azure: What is scalability?</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>GitOps</td>
+      <td>A method for managing and automating infrastructure and application deployments using 
+        Git as the single source of truth. With GitOps, all changes to infrastructure and 
+        application configurations are made through version-controlled Git repositories, 
+        ensuring transparency and reproducibility.
+      </td>
+      <td>Weaveworks: What is GitOps?</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Continuous Delivery (CD)</td>
+      <td>An extension of continuous integration that focuses on automating the deployment process. 
+        CD enables teams to continuously deliver software changes to production environments in a 
+        reliable and efficient manner. It emphasizes the use of automated testing, 
+        configuration management, and release management techniques.
+      </td>
+      <td>ThoughtWorks: Continuous Delivery</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Containerization/td>
+      <td>The process of encapsulating an application and its dependencies into a lightweight, 
+        isolated container. Containers provide consistency across 
+        different environments and enable efficient deployment and scaling.
+      </td>
+      <td>Docker: What is a Container?</td>
+    </tr>
+  </table>
+</body>
+
 </html>
-
-
