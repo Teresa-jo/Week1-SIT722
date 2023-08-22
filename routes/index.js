@@ -162,6 +162,86 @@ const nameList = [
     References:
     "Gill, N. S. (2022, November 14). Orchestration vs Automation - Understanding the Difference. XenonStack."
   },
+  {
+    id: 21,
+    Term: "Blue-Green Deployment",
+    Description: 
+    "A deployment strategy where two identical production environments, \"Blue\" and \"Green,\" run simultaneously. During an update, traffic is gradually switched from the old version (Blue) to the new version (Green) to achieve zero-downtime deployments and easy rollback in case of issues.",
+    References: 
+    "Fowler, M. (2014). Blue-Green Deployment. Retrieved from https://martinfowler.com/bliki/BlueGreenDeployment.html"
+  },
+  {
+    id: 22,
+    Term: "Canary Deployment",
+    Description: 
+    "A deployment technique that releases a new version of an application to a subset of users or servers before making it available to the entire user base. Canary deployments allow developers to gather real-time feedback, identify potential issues, and ensure a smooth rollout to the entire audience.",
+    References: 
+    "Newman, S. (2015). Canary Deployment. Retrieved from https://www.thoughtworks.com/radar/techniques/canary-deployments"
+  },
+  {
+    id: 23,
+    Term: "Infrastructure as a Service (IaaS)",
+    Description: 
+    "A cloud computing model where virtualized computing resources (servers, storage, networking) are provided over the internet. IaaS allows users to rent and manage infrastructure on a pay-as-you-go basis, providing scalability and flexibility without the need for physical hardware maintenance.",
+    References: 
+    "Boisvert, M., Bigelow, S. J., & Chai, W. (n.d.). Infrastructure as a Service (IaaS). TechTarget. Retrieved from https://searchcloudcomputing.techtarget.com/definition/Infrastructure-as-a-Service-IaaS"
+  },
+  {
+    id: 24,
+    Term: "Platform as a Service (PaaS)",
+    Description: 
+    "A cloud computing model that provides a platform and environment for developers to build, deploy, and manage applications without worrying about the underlying infrastructure. PaaS offers pre-configured development tools, databases, and operating systems, streamlining the development process.",
+    References: 
+    "Chai, W., Brush, K., & Bigelow, S. J. (n.d.). Platform as a Service (PaaS) Definition and Guide. TechTarget. Retrieved from https://searchcloudcomputing.techtarget.com/definition/Platform-as-a-Service-PaaS"
+  },
+  {
+    id: 25,
+    term: "Software as a Service (SaaS)",
+    Description: 
+    "A cloud computing model where software applications are delivered over the internet on a subscription basis. SaaS eliminates the need for users to install, manage, and maintain software locally, as the provider handles all updates, security, and availability aspects. Common examples include web-based email and collaboration tools.",
+    References: 
+    "Grant, M. (2022, December 15). Software as a Service (SaaS): Definition and Examples. Retrieved from https://www.investopedia.com/terms/s/software-as-a-service-saas.asp"
+  },
+  {
+    id: 26,
+    Term: "High Availability (HA)",
+    Description: 
+    "A characteristic of systems designed to ensure uninterrupted operation and minimize downtime. High availability involves redundant components, failover mechanisms, and load balancing to provide continuous service even in the face of hardware or software failures, contributing to better reliability and user satisfaction.",
+    References: 
+    "Lutkevich, B., & Gillis, A. S. (n.d.). High Availability (HA). TechTarget. Retrieved from https://searchdatacenter.techtarget.com/definition/high-availability"
+  },
+  {
+    id: 27,
+    Term: "Immutable Infrastructure",
+    Description: 
+    "An approach where infrastructure components, once deployed, are never modified in production. Instead of updating existing resources, new instances are created with the desired changes, reducing the risk of configuration drift and ensuring consistency and reproducibility in deployments.",
+    References: 
+    "Dadgar, A. (2018, November 15). A Tale of Two Terraforms — A Model for Managing Immutable and Mutable Infrastructure. Retrieved from https://medium.com/hashicorp-engineering/a-tale-of-two-terras-a-model-for-managing-immutable-and-mutable-infrastructure-489c5ac2f5f5"
+  },
+  {
+    id: 28,
+    Term: "Docker Compose",
+    Description: 
+    "A tool that allows users to define and manage multi-container Docker applications. Docker Compose uses a YAML file to configure the services, networks, and volumes required for the application, simplifying the process of running and scaling complex applications with multiple interconnected containers.",
+    References: 
+    "Ligios, A. (2022, November 30). Introduction to Docker Compose. Docker. Retrieved from https://docs.docker.com/compose/overview/"
+  },
+  {
+    id: 29,
+    Term: "Dockerfile",
+    Description: 
+    "A text file used to define the steps and instructions for building a Docker image. Dockerfile contains all the commands required to assemble an image, such as installing dependencies, copying files, and setting configurations. It serves as a blueprint for creating a reproducible and automated Docker image.",
+    References: 
+    "Afreen, S. (2023, March 17). What is a Dockerfile? A Step-by-Step Guide [2023 Updated]. Retrieved from https://www.edureka.co/blog/what-is-dockerfile-a-step-by-step-guide"
+  },
+  {
+    id: 30,
+    Term: "Docker Image",
+    Description: 
+    "A lightweight, standalone, and executable software package that includes everything needed to run a piece of software, including code, runtime, libraries, dependencies, and environment variables. Docker images serve as the basis for creating containers, ensuring consistent and portable application deployments.",
+    References: 
+    "Afreen, S. (2023, February 28). Docker Images: Everything You Need to Know. Retrieved from https://www.edureka.co/blog/docker-images-everything-you-need-to-know/"
+  }
 ];
 
 /* GET home page. */
