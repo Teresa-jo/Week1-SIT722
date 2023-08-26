@@ -196,7 +196,7 @@ const nameList = [
   },
   {
     id: 25,
-    term: "Software as a Service (SaaS)",
+    Term: "Software as a Service (SaaS)",
     Description: 
     "A cloud computing model where software applications are delivered over the internet on a subscription basis. SaaS eliminates the need for users to install, manage, and maintain software locally, as the provider handles all updates, security, and availability aspects. Common examples include web-based email and collaboration tools.",
     References: 
@@ -241,6 +241,86 @@ const nameList = [
     "A lightweight, standalone, and executable software package that includes everything needed to run a piece of software, including code, runtime, libraries, dependencies, and environment variables. Docker images serve as the basis for creating containers, ensuring consistent and portable application deployments.",
     References: 
     "Afreen, S. (2023, February 28). Docker Images: Everything You Need to Know. Retrieved from https://www.edureka.co/blog/docker-images-everything-you-need-to-know/"
+  },
+  {
+    id: 31,
+    Term: "Terraform",
+    Description: 
+    "Terraform is an open-source Infrastructure as Code (IaC) tool developed by HashiCorp. It allows you to define and provision infrastructure resources, such as virtual machines, networks, storage, and more, using declarative code.",
+    References: 
+    "Gillis, R. A. A. S. (n.d.). Terraform. SearchITOperations. TechTarget. https://www.techtarget.com/searchitoperations/definition/Terraform"
+  },
+  {
+    id: 32,
+    Term: "Container Registry",
+    Description: 
+    "A container registry is a repository for storing and managing container images. Containerization, popularized by Docker, allows you to package an application and its dependencies into a single lightweight unit known as a container. A container registry stores these container images, making them accessible for deployment on various platforms. Examples of container registries include Docker Hub, Google Container Registry, and Azure Container Registry.",
+    References: 
+    "Red Hat. (2022, July 27). What is a container registry? Red Hat. https://www.redhat.com/en/topics/cloud-native-apps/what-is-a-container-registry"
+  },
+  {
+    id: 33,
+    Term: "Kubernetes Cluster",
+    Description: 
+    "Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications. A Kubernetes cluster consists of a set of worker nodes (machines) that run containers and a master node that manages and controls the cluster. ",
+    References: 
+    "Red Hat. (2020, January 15). What is a Kubernetes cluster? Red Hat. https://www.redhat.com/en/topics/containers/what-is-a-kubernetes-cluster"
+  },
+  {
+    id: 34,
+    Term: "Jenkins",
+    Description: 
+    "Jenkins is an open-source automation server that facilitates the continuous integration and continuous delivery (CI/CD) of software applications. It helps development teams automate various stages of the software development lifecycle, including building, testing, and deploying code changes. ",
+    References: 
+    "Heller, M. (2023, March 15). What is Jenkins? The CI server explained. InfoWorld. https://www.infoworld.com/article/3239666/what-is-jenkins-the-ci-server-explained.html"
+  },
+  {
+    id: 35,
+    Term: "Deployment Pipeline",
+    Description: 
+    "A Deployment Pipeline is a sequence of automated steps that code changes go through to be built, tested, and deployed. It encompasses CI/CD practices to ensure smooth and reliable software delivery.",
+    References: 
+    "Filho, W. (2016, July 11). What is a deployment pipeline and how does it help software development teams? The Whereby Blog. https://medium.com/the-making-of-whereby/what-is-a-deployment-pipeline-and-how-it-helps-software-development-teams-6cb29917ceea"
+  },
+  {
+    id: 36,
+    Term: "Release Management",
+    Description: 
+    "Release Management involves planning, coordinating, and executing the deployment of software releases to various environments. It ensures that new features and fixes are delivered smoothly to users.",
+    References: 
+    "What Is Release Management? (And How to Start Your Career in It). (2023, June 17). Coursera. https://www.coursera.org/articles/release-management?"
+  },
+  {
+    id: 37,
+    Term: "Service Mesh",
+    Description: 
+    "A Service Mesh is a dedicated infrastructure layer that manages communication between microservices within a containerized application. It provides features like traffic management, security, and observability.",
+    References: 
+    "Service Mesh. (2018, June 29). Red Hat. https://www.redhat.com/en/topics/microservices/what-is-a-service-mesh"
+  },
+  {
+    id: 38,
+    Term: "Log Aggregation",
+    Description: 
+    "Log Aggregation involves collecting and centralizing log data from various sources to facilitate analysis, troubleshooting, and monitoring.",
+    References: 
+    "Sharif, A. (2022, December 21). What is Log Aggregation? Retrieved from https://www.crowdstrike.com/cybersecurity-101/observability/log-aggregation/"
+  },
+  {
+    id: 39,
+    Term: "Service Discovery",
+    Description: 
+    "Service Discovery is the process of automatically identifying and locating services within a network, often used in microservices architectures.",
+    References: 
+    "Simone Cusimano. (2022, November 6). Service Discovery in Microservices. Retrieved from https://www.baeldung.com/cs/service-discovery-microservices"
+  },
+  {
+    id: 40,
+    Term: "Pipeline Orchestration",
+    Description: 
+    "Pipeline Orchestration involves managing the sequence and execution of various stages in a software delivery pipeline, such as building, testing, and deploying.",
+    References: 
+    "Agofure, M. (2022, May 9). The Importance of Data Orchestration Pipelines for Organizations. [Blog post]. Retrieved from https://streamsets.com/blog/data-orchestration-pipelines/"
   }
 ];
 
