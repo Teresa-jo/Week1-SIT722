@@ -321,6 +321,86 @@ const nameList = [
     "Pipeline Orchestration involves managing the sequence and execution of various stages in a software delivery pipeline, such as building, testing, and deploying.",
     References: 
     "Agofure, M. (2022, May 9). The Importance of Data Orchestration Pipelines for Organizations. [Blog post]. Retrieved from https://streamsets.com/blog/data-orchestration-pipelines/"
+  },
+  {
+    id: 41,
+    Term: "Pod",
+    Description: 
+    "A Pod is the smallest deployable unit in Kubernetes. It can contain one or more containers that share the same network namespace and storage volume. Pods are often used to group containers that work together.",
+    References: 
+    ""
+  },
+  {
+    id: 42,
+    Term: "Helm Chart",
+    Description: 
+    "Helm is a package manager for Kubernetes that allows you to define, install, and upgrade even the most complex Kubernetes applications. Helm charts are packages of pre-configured Kubernetes resources.",
+    References: 
+    ""
+  },
+  {
+    id: 43,
+    Term: "Node",
+    Description: 
+    "In Kubernetes, a Node is a worker machine that runs containerized applications. Nodes are managed by the control plane, which schedules workloads and monitors their status.",
+    References: 
+    "Kubernetes Nodes: https://kubernetes.io/docs/concepts/architecture/nodes/"
+  },
+  {
+    id: 44,
+    Term: "Ingress",
+    Description: 
+    "Ingress is an API object in Kubernetes that manages external access to services within a cluster. It provides HTTP and HTTPS routing, load balancing, and can perform SSL termination.",
+    References: 
+    "Kubernetes Ingress: https://kubernetes.io/docs/concepts/services-networking/ingress/"
+  },
+  {
+    id: 45,
+    Term: "Service",
+    Description: 
+    "A Service in Kubernetes is an abstraction that defines a logical set of Pods and a policy by which to access them. It enables network access to a set of Pods, often used to expose applications within the cluster.",
+    References: 
+    "Kubernetes Services: https://kubernetes.io/docs/concepts/services-networking/service/"
+  },
+  {
+    id: 46,
+    Term: "ReplicaSet",
+    Description: 
+    "A ReplicaSet in Kubernetes ensures that a specified number of Pod replicas are running at all times. It is used to scale applications horizontally by maintaining a desired number of Pod instances.",
+    References: 
+    "Kubernetes ReplicaSet: https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/"
+  },
+  {
+    id: 47,
+    Term: "Persistent Volume (PV)",
+    Description: 
+    "A Persistent Volume in Kubernetes is a piece of network storage provisioned by an administrator that can be used by Pods. It allows data to survive container restarts.",
+    References: 
+    "Kubernetes Persistent Volumes: https://kubernetes.io/docs/concepts/storage/persistent-volumes/"
+  },
+  {
+    id: 48,
+    Term: "Persistent Volume Claim (PVC)",
+    Description: 
+    "A Persistent Volume Claim in Kubernetes is a request for storage by a user or application. It consumes Persistent Volumes and provides storage resources to Pods.",
+    References: 
+    "Kubernetes Persistent Volume Claims: https://kubernetes.io/docs/concepts/storage/persistent-volumes/#persistentvolumeclaims"
+  },
+  {
+    id: 49,
+    Term: "Secret",
+    Description: 
+    "A Secret in Kubernetes is an object for storing sensitive information, such as passwords and tokens. It is often used to secure data that is used by Pods or other resources.",
+    References: 
+    "Kubernetes Secrets: https://kubernetes.io/docs/concepts/configuration/secret/"
+  },
+  {
+    id: 50,
+    Term: "ConfigMap",
+    Description: 
+    "A ConfigMap in Kubernetes is an API object for storing non-sensitive configuration data as key-value pairs. It is commonly used to decouple configuration from Pods.",
+    References: 
+    "Kubernetes ConfigMaps: https://kubernetes.io/docs/concepts/configuration/configmap/"
   }
 ];
 
