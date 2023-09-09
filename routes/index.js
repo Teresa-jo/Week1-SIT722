@@ -328,7 +328,7 @@ const nameList = [
     Description: 
     "A Pod is the smallest deployable unit in Kubernetes. It can contain one or more containers that share the same network namespace and storage volume. Pods are often used to group containers that work together.",
     References: 
-    ""
+    "rajeshsgr. (2022, May 8). Why is POD the smallest deployable unit in Kubernetes and not containers? BelowTheMalt Blog. Retrieved from https://belowthemalt.com/2022/05/08/why-is-pod-the-smallest-deployable-unit-in-kubernetes-and-not-containers/"
   },
   {
     id: 42,
@@ -336,7 +336,7 @@ const nameList = [
     Description: 
     "Helm is a package manager for Kubernetes that allows you to define, install, and upgrade even the most complex Kubernetes applications. Helm charts are packages of pre-configured Kubernetes resources.",
     References: 
-    ""
+    "Cherry, J. (2020, May 13). How to make a Helm chart in 10 minutes: Write a simple Helm chart for Kubernetes in about 10 minutes. Opensource.com. Retrieved from https://opensource.com/article/20/5/helm-charts"
   },
   {
     id: 43,
@@ -344,7 +344,7 @@ const nameList = [
     Description: 
     "In Kubernetes, a Node is a worker machine that runs containerized applications. Nodes are managed by the control plane, which schedules workloads and monitors their status.",
     References: 
-    "Kubernetes Nodes: https://kubernetes.io/docs/concepts/architecture/nodes/"
+    "Polencic, D. (2023, August). Architecting Kubernetes clusters — choosing a worker node size. LearnK8s. Retrieved from https://learnk8s.io/kubernetes-node-size"
   },
   {
     id: 44,
@@ -352,7 +352,7 @@ const nameList = [
     Description: 
     "Ingress is an API object in Kubernetes that manages external access to services within a cluster. It provides HTTP and HTTPS routing, load balancing, and can perform SSL termination.",
     References: 
-    "Kubernetes Ingress: https://kubernetes.io/docs/concepts/services-networking/ingress/"
+    "Zapf, M. (2020, June 2). Kubernetes Ingress & Service API Demystified. Traefik Blog. Retrieved from https://traefik.io/blog/kubernetes-ingress-service-api-demystified/"
   },
   {
     id: 45,
@@ -360,7 +360,7 @@ const nameList = [
     Description: 
     "A Service in Kubernetes is an abstraction that defines a logical set of Pods and a policy by which to access them. It enables network access to a set of Pods, often used to expose applications within the cluster.",
     References: 
-    "Kubernetes Services: https://kubernetes.io/docs/concepts/services-networking/service/"
+    "Shtein, N. (2023, July 31). Kubernetes Service: Examples, Basic Usage, and Troubleshooting. Komodor. Retrieved from https://komodor.com/learn/kubernetes-service-examples-basic-usage-and-troubleshooting/"
   },
   {
     id: 46,
@@ -368,7 +368,7 @@ const nameList = [
     Description: 
     "A ReplicaSet in Kubernetes ensures that a specified number of Pod replicas are running at all times. It is used to scale applications horizontally by maintaining a desired number of Pod instances.",
     References: 
-    "Kubernetes ReplicaSet: https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/"
+    "Singh, V. K. (2022, September 30). How to use ReplicaSets in Kubernetes and Why You Should Know About Them. Retrieved from https://earthly.dev/blog/use-replicasets-in-k8s/"
   },
   {
     id: 47,
@@ -376,7 +376,7 @@ const nameList = [
     Description: 
     "A Persistent Volume in Kubernetes is a piece of network storage provisioned by an administrator that can be used by Pods. It allows data to survive container restarts.",
     References: 
-    "Kubernetes Persistent Volumes: https://kubernetes.io/docs/concepts/storage/persistent-volumes/"
+    "Walker, J. (2022, May 18). Using Kubernetes Persistent Volumes. Retrieved from https://earthly.dev/blog/kubernetes-persistent-volumes/"
   },
   {
     id: 48,
@@ -384,7 +384,7 @@ const nameList = [
     Description: 
     "A Persistent Volume Claim in Kubernetes is a request for storage by a user or application. It consumes Persistent Volumes and provides storage resources to Pods.",
     References: 
-    "Kubernetes Persistent Volume Claims: https://kubernetes.io/docs/concepts/storage/persistent-volumes/#persistentvolumeclaims"
+    "Ram, H. (2023, May 26). Difference Between PV and PVC in Kubernetes. Retrieved from https://www.baeldung.com/ops/kubernetes-pv-vs-pvc"
   },
   {
     id: 49,
@@ -392,7 +392,7 @@ const nameList = [
     Description: 
     "A Secret in Kubernetes is an object for storing sensitive information, such as passwords and tokens. It is often used to secure data that is used by Pods or other resources.",
     References: 
-    "Kubernetes Secrets: https://kubernetes.io/docs/concepts/configuration/secret/"
+    "Bassey, M. (2023, March 17). An Introduction to Kubernetes Secrets. Earthly. https://earthly.dev/blog/kubernetes-secrets/"
   },
   {
     id: 50,
@@ -400,7 +400,7 @@ const nameList = [
     Description: 
     "A ConfigMap in Kubernetes is an API object for storing non-sensitive configuration data as key-value pairs. It is commonly used to decouple configuration from Pods.",
     References: 
-    "Kubernetes ConfigMaps: https://kubernetes.io/docs/concepts/configuration/configmap/"
+    "Walker, J. (2022, May 11). Kubernetes ConfigMaps and Configuration Best Practices. Earthly. https://earthly.dev/blog/kubernetes-config-maps/"
   }
 ];
 
